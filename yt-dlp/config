@@ -1,0 +1,19 @@
+# yt-dlp configuration file
+# use: yt-dlp --config-location .config/yt-dlp/config <url>
+
+# Filesystem options:
+# --batch-file: ~/Downloads/yt-dlp.txt # File containing URLs to download
+--paths ~/Downloads/yt-dlp-downloads/ # Output file path
+--output %(title)s.%(ext)s # Output filename template
+
+# Verbosity and Simulation Options:
+-q # Quiet (no output)
+# --simulate # Do not download the video and do not write anything to disk
+--verbose # Print additional info to stdout
+
+# Video Format Options:
+--format m4a #/best*[vcodec=none] # Download best audio-only format
+
+# Post-Processing Options:
+--embed-thumbnail # Embed thumbnail in the audio as cover art
+

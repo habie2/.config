@@ -1,6 +1,7 @@
- -- tab=4espacios
-  2 vim.cmd('set tabstop=4')
-  3 vim.cmd('set softtabstop=4')
-  4 vim.cmd('set shiftwidth=4')
-  5 vim.cmd('set expandtab')
-  6 vim.cmd('set number')
+-- tab=4espacios
+vim.cmd('set tabstop=4')
+vim.cmd('set softtabstop=4')
+vim.cmd('set shiftwidth=4')
+vim.cmd('set expandtab')
+vim.cmd('set number') -- muestra numeración de lineas
+vim.cmd('set ic') -- ignora mayúsculas/minusculas en busquedas

@@ -10,7 +10,7 @@ change to .Xmodmap config:
 xmodmap ~/.Xmodmap
 ```
 .Xmodmap config: 
-```{.Xmodmap}
+```{bash}
 !
 ! Swap Caps_Lock and Control_L
 !

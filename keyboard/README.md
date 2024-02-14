@@ -11,7 +11,7 @@ xmodmap ~/.Xmodmap
 ```
 
 ### gnome-tweaks
-Update: using gnome-tweaks is easier. Following post: https://opensource.com/article/18/11/how-swap-ctrl-and-caps-lock-your-keyboard
+**Update:** using gnome-tweaks is easier. Following post: https://opensource.com/article/18/11/how-swap-ctrl-and-caps-lock-your-keyboard
 
 ## Windows 
 1. Press `Win + R` to open the Run dialog, type `regedit`, and enter.

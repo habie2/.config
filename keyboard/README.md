@@ -9,6 +9,18 @@ change to .Xmodmap config:
 ```bash
 xmodmap ~/.Xmodmap
 ```
+.Xmodmap config: 
+```{.Xmodmap}
+!
+! Swap Caps_Lock and Control_L
+!
+remove Lock = Caps_Lock
+remove Control = Control_L
+keysym Control_L = Caps_Lock
+keysym Caps_Lock = Control_L
+add Lock = Caps_Lock
+add Control = Control_L
+```
 ### gnome-tweaks
 Update: using gnome-tweaks is easier. Following post: https://opensource.com/article/18/11/how-swap-ctrl-and-caps-lock-your-keyboard
 
